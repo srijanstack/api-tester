@@ -68,6 +68,6 @@ docker-compose up --build
 | Service   | Port | Description |
 |----------|------|-------------|
 | Frontend | 51773 | React UI  |
-| Backend  | 5000  | API server |
+| Backend  | 3000  | API server |
 
 
