@@ -40,3 +40,34 @@ The app allows users to send HTTP requests and inspect responses with status cod
 
 ## 📦 Project Structure
 
+api-tester/
+├── client/ # React app
+│ ├── Dockerfile
+│ └── src/
+├── server/ # Express 
+│ ├── Dockerfile
+│ └── src/
+├── docker-compose.yml
+└── README.md
+
+
+---
+
+## 🐳 Running the App with Docker (Recommended)
+
+### Prerequisites
+- Docker
+- Docker Compose
+
+### Build & Run
+```bash
+docker-compose up --build
+
+## 🌐 Ports
+
+| Service   | Port | Description |
+|----------|------|-------------|
+| Frontend | 51773 | React UI  |
+| Backend  | 5000  | API server |
+
+
